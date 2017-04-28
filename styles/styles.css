@@ -4,6 +4,15 @@ html, body {
     background-color: #E1EFF6;
 }
 
+p {
+    font-size: 120%;
+}
+
+img {
+    width: 333px;
+    height: 247px;
+}
+
 .header {
     background-color: #E1EFF6;
 }
@@ -48,5 +57,8 @@ html, body {
 .header {
     text-align: center;
     padding: 6em;
-    
+}
+
+.page-summary h1 {
+    text-align: center;
 }
