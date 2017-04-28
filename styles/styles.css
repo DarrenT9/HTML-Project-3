@@ -46,11 +46,11 @@ img {
     display: inline-block;
 }
 
-.dropdown li:hover {
+.dropdown:hover {
     background-color: #FFFFFF;
 }
 
-.dropdown li:hover a {
+.dropdown:hover a {
     color: #B4C5E4;
 }
 
