@@ -1,7 +1,46 @@
-html {
-    background: ;
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #B4C5E4;
 }
 
-body {
-    
+.nav_bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    z-index: 1;
+}
+
+.nav_bar li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: ;
+    text-align: center;
+    padding: 24px 20px;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown li:hover {
+    background-color: ;
+}
+
+.dropdown li:hover a {
+    color: ;
+}
+
+.header {
+    margin-top: 8%;
 }
