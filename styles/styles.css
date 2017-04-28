@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -15,6 +21,7 @@ img {
 
 #background {
     background-color: #E1EFF6;
+    padding-top: 2em;
 }
 
 .nav_bar {
@@ -61,4 +68,44 @@ img {
 
 .page-summary h1 {
     text-align: center;
+}
+
+.covertext {
+    align-content: center;
+    position: absolute;
+    vertical-align: middle;
+    margin-left: 4%;
+}
+
+#title {
+    padding-top: 35%;
+    font-size: 4em;
+    font-weight: bolder;
+    color: white;
+}
+
+#title2 {
+    padding-top: 50%;
+    font-size: 4em;
+    font-weight: bolder;
+    color: white;
+}
+
+
+#titledesc {
+    font-size: 2em;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+}
+
+.cover {
+    margin-top: 2em;
+    height: 35em;
+    position: relative;
+}
+.cover img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
