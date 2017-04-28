@@ -12,16 +12,41 @@ p {
     padding-top: 2em;
 }
 
+.cover {
+    margin-top: 2em;
+    height: 40em;
+    position: relative;
+    line-height: 30em;
+}
+.cover img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 #subtitle {
     text-align: center;
     font-size: 2em;
 }
 
-#title {
+.covertext {
+    display: inline-block;
+    align-content: center;
     text-align: center;
+    position: absolute;
+    vertical-align: middle;
+}
+
+#title {
     font-size: 4em;
     font-weight: bolder;
+    color: white;
 }
+
+#titledesc {
+    font-size: 2em;
+    font-weight: normal;
+}
+
 #desc {
     text-align: center;
 }
