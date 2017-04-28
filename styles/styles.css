@@ -1,6 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #E1EFF6;
+}
+
+.header {
     background-color: #B4C5E4;
 }
 
@@ -11,7 +15,7 @@ html, body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: ;
+    background-color: #E1EFF6;
     z-index: 1;
 }
 
@@ -19,7 +23,7 @@ html, body {
     float: left;
 }
 
-li a {
+.nav_bar li a {
     display: block;
     color: ;
     text-align: center;
@@ -42,5 +46,7 @@ li a {
 }
 
 .header {
-    margin-top: 8%;
+    text-align: center;
+    padding: 6em;
+    
 }
