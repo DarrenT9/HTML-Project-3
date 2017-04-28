@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.home_summary {
+    padding-top: 2em;
+}
+
+.home_subtitle {
+    padding-top: 2em;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 2em;
+}
+
+#title {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+}
+#desc {
+    text-align: center;
+}
