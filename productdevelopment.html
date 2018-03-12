@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Redo - Product Development</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/css/bootstrap.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </header>
+    
+    <body>
+        <div class="container-fluid">
+            <ul class="nav_bar row no-gutters">
+                <li class="dropdown">
+                    <a href="home.html" class="drop_item">Home</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="wetlab.html">Wet Lab</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="productdevelopment.html">Product Development</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="policyandpractices.php">Policy and Practices</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="business.php">Business</a>
+                </li>
+
+                <li class="dropdown human">
+                    <a href="ourteam.php">Our Team</a>
+                </li>
+            </ul>
+            
+            <div class="cover row no-gutters">
+                <img src="images/machineshop.jpg">
+                <div class="covertext">
+                    <p id="title">Product Development</p>
+                    <p id="titledesc">A TWO-PART MECHANISM INVOLVING A DETECTOR AND A SENSOR</p>
+                </div>
+            </div>
+
+            <div class="row page-summary" id="para-spacing">
+                <p id="overview-subtitle">Overview</p>
+                
+                <div class="col-md-12">
+                    <p class="content">The mechanical mechanism of Redox Sensor integrates well with wet lab to effectively collect a real-time substoichiometric readout of the amount of reducing agents in a wastewater environment. To accomplish such task, we have designed an input/output system comprised of two parts: an optogenetic fluorescence detector and a ratiometric sensor.</p>
+                </div>
+            </div>
+
+            <div class="row content1" id="para-spacing">
+                <div class="col-md-8">
+                    <p id="content-subtitle">Optogenetic Fluorescence Detector</p>
+
+                    <p class="content">Our optogenetic fluorescence detector receives input from the color changes given off by the fusion of Orp1 and roGFP. When Orp1-roGFP fuse and emit a green light, the redox sensor system detects the emission and responds by giving off a red light to suppress the green-light sensitive promoter in Orp1-roGFP.</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="https://www.photonics.com/images/Web/Articles/2017/3/23/thumbnail_61857.jpg">
+                </div>
+            </div>
+
+            <div class="row content2" id="para-spacing">
+                <div class="col-md-4">
+                    <img src="https://www.researchgate.net/profile/Bin_Cao6/publication/266083619/figure/fig3/AS:272611733143575@1442007110441/Figure-1-Spectral-response-of-S-oneidensis-MR-1-BpfA-roGFP-cells-in-the-presence-of.png">
+                </div>
+                
+                <div class="col-md-8">
+                    <p id="content-subtitle">Ratiometric Sensor</p>
+
+                    <p class="content">Our ratiometric sensor outputs the relative fluorescence intensity and corresponding wavelengths of the ratiometric signals given off when Orp1-roGFP changes color. The peaks detected by the ratiometric sensor will be recorded and communicated to the optogenetic fluorescence detector. The ratiometric sensor will monitor the ratios of the intensities of the two peaks from roGFP.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
